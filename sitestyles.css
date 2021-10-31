@@ -1,0 +1,144 @@
+/*
+var(--blue)
+var(--yellow)
+var(--black)
+var(--green)
+var(--brown)
+*/
+
+:root {
+  --blue: #006494;
+  --yellow: #ffbf69;
+  --black: #020122;
+  --green: #4a7856;
+  --brown: #5c4742;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  /* background-color: var(--blue);*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--green);
+}
+
+a {
+  color: var(--blue);
+}
+
+table {
+  max-width: auto;
+}
+
+th {
+  font-size: 1.3rem;
+}
+
+ul {
+  padding-bottom: 2%;
+}
+
+details {
+  margin: 2%;
+  padding: 1%;
+}
+
+details > summary {
+  background-color: var(--blue);
+  color: white;
+  margin: 4% 4% 4% 0;
+  padding: 3%;
+  border: 1px solid var(--blue);
+  border-radius: 10%;
+}
+
+.container {
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.guide {
+  padding-top: 1.7%;
+}
+
+.reviews {
+  font-size: 0.8rem;
+}
+
+.banner {
+  text-transform: uppercase;
+  text-align: justify;
+  color: var(--green);
+  /* padding-left: 2.5%;*/
+}
+
+.logo {
+  width: 90%;
+  padding: 5%;
+}
+
+.sec1 {
+  display: block;
+  font-size: 2rem;
+  padding-top: 1%;
+  margin-bottom: -2%;
+  letter-spacing: 0.2rem;
+}
+
+.sec2 {
+  display: block;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  /*margin-bottom: -2%;*/
+}
+
+.navbar {
+  padding: 0.1rem 0;
+  text-transform: none;
+  background-color: var(--green);
+  color: white;
+  margin: 0.1rem 0;
+  /*margin-top: -5%;*/
+}
+
+.nav-link {
+  padding-right: 2rem;
+}
+
+.nav-item {
+  padding-right: 2rem;
+}
+
+.nav-item > a {
+  color: white;
+  padding-right: 2rem;
+}
+
+.first-nav-item {
+  padding-left: 0;
+}
+
+.custom-btn {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.custom-btn:hover {
+  background-color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: (var--green);
+}
+
+#content {
+  margin-top: 5%;
+}
